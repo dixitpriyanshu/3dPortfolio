@@ -1,11 +1,19 @@
-const Home = () => {
-  return (
-    <main>
-      <div>
-        <h1 className="text-3xl">Welcome</h1>
-      </div>
-    </main>
-  );
-};
+import Hero from "./sections/Hero";
+import ShowcaseSection from "./sections/ShowcaseSection";
 
-export default Home;
+const App = () => (
+  <>
+    {/* <Navbar /> */}
+    <Hero />
+    <ShowcaseSection />
+    {/* <LogoShowcase />
+    <FeatureCards />
+    <Experience />
+    <TechStack />
+    <Testimonials />
+    <Contact />
+    <Footer /> */}
+  </>
+);
+
+export default App;
