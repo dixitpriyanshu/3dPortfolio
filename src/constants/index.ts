@@ -145,8 +145,8 @@ const expCards = [
   {
     review:
       "Priyanshu consistently brought a sharp eye for design and clean code to the team. His work on multiple production-ready apps has significantly improved user engagement and overall app performance.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "/images/suggaa-name.png",
+    logoPath: "/images/suggaa.png",
     title: "Software Developer - React Native",
     date: "May 2023 - Present",
     responsibilities: [
@@ -159,8 +159,8 @@ const expCards = [
   {
     review:
       "Priyanshu brought a solid understanding of hardware-software integration. His work on Bluetooth-enabled applications helped us deliver reliable IoT experiences with significant performance gains.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    imgPath: "/images/sorian-gadgets.png",
+    logoPath: "/images/sg.png",
     title: "Project Intern",
     date: "February 2023 - April 2023",
     responsibilities: [
@@ -169,19 +169,19 @@ const expCards = [
       "Optimized Bluetooth handling and responsiveness across multiple test scenarios.",
     ],
   },
-  {
-    review:
-      "Priyanshu’s projects like Pourfect and Whispurr showcase not just technical proficiency, but a deep focus on user experience, performance, and scalability. His apps reflect real-world impact and thoughtful engineering.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "Independent Developer",
-    date: "March 2025 - April 2025",
-    responsibilities: [
-      "Built and published Pourfect: a cross-platform cocktail discovery app with offline support and a scalable Supabase backend.",
-      "Developed Whispurr: a location-based anonymous messaging app with geo-querying and 100% offline reliability.",
-      "Used Zustand and react-native-mmkv for persistent state management across both apps.",
-    ],
-  },
+  // {
+  //   review:
+  //     "Priyanshu’s projects like Pourfect and Whispurr showcase not just technical proficiency, but a deep focus on user experience, performance, and scalability. His apps reflect real-world impact and thoughtful engineering.",
+  //   imgPath: "/images/exp3.png",
+  //   logoPath: "/images/logo3.png",
+  //   title: "Independent Developer",
+  //   date: "March 2025 - April 2025",
+  //   responsibilities: [
+  //     "Built and published Pourfect: a cross-platform cocktail discovery app with offline support and a scalable Supabase backend.",
+  //     "Developed Whispurr: a location-based anonymous messaging app with geo-querying and 100% offline reliability.",
+  //     "Used Zustand and react-native-mmkv for persistent state management across both apps.",
+  //   ],
+  // },
 ];
 
 const expLogos = [
