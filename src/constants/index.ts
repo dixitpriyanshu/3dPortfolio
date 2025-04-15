@@ -11,10 +11,6 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
 ];
 
 const words = [
@@ -74,18 +70,18 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Quality-First Mindset",
+    desc: "I take pride in delivering clean, efficient, and scalable code—without cutting corners.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Consistent Communication",
+    desc: "I keep stakeholders in the loop at every stage, ensuring alignment and transparency.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Dependable Delivery",
+    desc: "Deadlines matter. I consistently ship on time without compromising quality.",
   },
 ];
 
@@ -114,7 +110,7 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "React/ React Native Developer",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
@@ -138,7 +134,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Project Management",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -148,41 +144,42 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "Priyanshu consistently brought a sharp eye for design and clean code to the team. His work on multiple production-ready apps has significantly improved user engagement and overall app performance.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Software Developer - React Native",
+    date: "May 2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Led development of 3+ production-ready mobile apps using React Native, TypeScript, and Expo.",
+      "Reduced API latency by 30% by integrating GraphQL and launched apps on Play Store & App Store via EAS.",
+      "Improved engagement by 35% with 20+ accessible, responsive UI screens and native features like PiP and Floating Widgets.",
+      "Managed app state using Jotai, reducing context-related bugs by 50% in apps used by 10,000+ users.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "Priyanshu brought a solid understanding of hardware-software integration. His work on Bluetooth-enabled applications helped us deliver reliable IoT experiences with significant performance gains.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Project Intern",
+    date: "February 2023 - April 2023",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Built a real-time Bluetooth-enabled Android app in Java for smart device communication with Arduino.",
+      "Reduced data transfer delays by 60% and achieved 95%+ reliability through custom protocols.",
+      "Optimized Bluetooth handling and responsiveness across multiple test scenarios.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      "Priyanshu’s projects like Pourfect and Whispurr showcase not just technical proficiency, but a deep focus on user experience, performance, and scalability. His apps reflect real-world impact and thoughtful engineering.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Independent Developer",
+    date: "March 2025 - April 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Built and published Pourfect: a cross-platform cocktail discovery app with offline support and a scalable Supabase backend.",
+      "Developed Whispurr: a location-based anonymous messaging app with geo-querying and 100% offline reliability.",
+      "Used Zustand and react-native-mmkv for persistent state management across both apps.",
     ],
   },
 ];
@@ -251,18 +248,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: "https://www.instagram.com/priyaaansshhuu?igsh=MTQxcDRlMms3bjA0Ng%3D%3D&utm_source=qr",
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: "github",
+    imgPath: "/images/github.png",
+    link: "https://github.com/dixitpriyanshu",
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    link: "https://x.com/Priyans90696979",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/priyanshudixit/",
   },
 ];
 
